@@ -1,0 +1,16 @@
+server:
+  port: ${port.no}
+             
+eureka:
+  instance:
+      ##instanceId: ${spring.application.name}:${random.value}
+      instanceId: controller:${random.value}
+      ## this should not be enabled on production
+      leaseRenewalIntervalInSeconds: 1
+      leaseExpirationDurationInSeconds: 2
+      ##hostname: ${host.name} 
+  client:
+    serviceUrl:
+      defaultZone: ${server.ip}
+      eureka.client.healthcheck.enabled: true
+      lease:duration: 1

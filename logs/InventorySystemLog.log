@@ -1,0 +1,186 @@
+07-05-2020 18:37:13.089 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$86e9ea9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-05-2020 18:37:15.412 [main] INFO  com.ims.InventorySystemApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+07-05-2020 18:37:17.283 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=784b9b19-4f44-37e7-9815-0504d43263b6
+07-05-2020 18:37:17.460 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$86e9ea9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-05-2020 18:37:18.960 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8084 (http)
+07-05-2020 18:37:18.991 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8084"]
+07-05-2020 18:37:19.013 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-05-2020 18:37:19.014 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+07-05-2020 18:37:19.496 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-05-2020 18:37:19.497 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4062 ms
+07-05-2020 18:37:19.724 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+07-05-2020 18:37:19.725 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+07-05-2020 18:37:19.737 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+07-05-2020 18:37:19.737 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+07-05-2020 18:37:20.076 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-05-2020 18:37:25.308 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+07-05-2020 18:37:25.405 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+07-05-2020 18:37:25.408 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+07-05-2020 18:37:25.430 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1588856845426 with initial instances count: 0
+07-05-2020 18:37:25.442 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application TEST-SERVICE with eureka with status UP
+07-05-2020 18:37:25.464 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8084"]
+07-05-2020 18:37:25.545 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8084 (http) with context path ''
+07-05-2020 18:37:25.558 [main] INFO  com.ims.InventorySystemApplication.logStarted - Started InventorySystemApplication in 15.9 seconds (JVM running for 16.847)
+07-05-2020 18:37:25.567 [main] INFO  com.ims.InventorySystemApplication.main - ________________________________________________________________________________________________________________________________
+   ____      ___     _       ___     __   __ __    __   __ _ _ 
+/*/        /*/ \*\  |*|    /*/ \*\  \*\  /*/ \*\  /*/   \ \ \ \
+|*|   ___ |*|___|*| |*|   |*|___|*|  \*\/*/   \*\/*/     \ \ \ \ 
+|*|   |*| |*|   |*| |*|   |*|   |*|  /*/\*\    |*|       ) ) ) )
+\*\---|*| |*|   |*| |*|__ |*|   |*| /*/  \*\   |*|      / / / /
+ `------' '-'   '-' '----''-'   '-''-'    '-'  '-'     /_/_/_/
+____________________________________________________________________________________________________________________________
+07-05-2020 18:37:25.570 [main] INFO  com.ims.InventorySystemApplication.main - LG070520063709_1017608963::REDIS CONFIGURATION START
+07-05-2020 18:37:25.571 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG070520063709_1017608963::Checking Redis server is up & Running on port no: 6379
+07-05-2020 18:37:27.715 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG070520063709_1017608963::REDIS SERVER IS DOWN
+07-05-2020 18:37:27.715 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520063709_1017608963::############EXCEPTION START###########
+07-05-2020 18:37:27.716 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520063709_1017608963::redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+07-05-2020 18:37:27.716 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520063709_1017608963::##########EXCEPTION END###########
+07-05-2020 18:37:27.717 [main] INFO  com.ims.InventorySystemApplication.main - LG070520063709_1017608963::REDIS CONFIGURATION END
+07-05-2020 18:37:27.717 [main] INFO  com.ims.InventorySystemApplication.main - LG070520063709_1017608963::QUITING SERVICE
+07-05-2020 18:37:27.717 [main] INFO  com.ims.InventorySystemApplication.main - LG070520063709_1017608963:: Execution time:  18298
+07-05-2020 18:37:27.717 [main] INFO  com.ims.InventorySystemApplication.main - LG070520063709_1017608963::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+07-05-2020 18:38:00.749 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-05-2020 18:38:00.750 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+07-05-2020 18:38:00.765 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 14 ms
+07-05-2020 18:38:46.666 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c1ebed3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-05-2020 18:38:49.601 [main] INFO  com.ims.InventorySystemApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+07-05-2020 18:38:51.816 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=784b9b19-4f44-37e7-9815-0504d43263b6
+07-05-2020 18:38:52.083 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c1ebed3c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-05-2020 18:38:54.280 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8084 (http)
+07-05-2020 18:38:54.342 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8084"]
+07-05-2020 18:38:54.378 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-05-2020 18:38:54.379 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+07-05-2020 18:38:54.908 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-05-2020 18:38:54.909 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 5271 ms
+07-05-2020 18:38:55.350 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+07-05-2020 18:38:55.351 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+07-05-2020 18:38:55.374 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+07-05-2020 18:38:55.376 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+07-05-2020 18:38:55.865 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-05-2020 18:39:02.188 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+07-05-2020 18:39:02.365 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+07-05-2020 18:39:02.370 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+07-05-2020 18:39:02.416 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1588856942410 with initial instances count: 0
+07-05-2020 18:39:02.438 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application TEST-SERVICE with eureka with status UP
+07-05-2020 18:39:02.507 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8084"]
+07-05-2020 18:39:02.647 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8084 (http) with context path ''
+07-05-2020 18:39:02.652 [main] INFO  com.ims.InventorySystemApplication.logStarted - Started InventorySystemApplication in 21.393 seconds (JVM running for 23.343)
+07-05-2020 18:39:02.658 [main] INFO  com.ims.InventorySystemApplication.main - ________________________________________________________________________________________________________________________________
+   ____      ___     _       ___     __   __ __    __   __ _ _ 
+/*/        /*/ \*\  |*|    /*/ \*\  \*\  /*/ \*\  /*/   \ \ \ \
+|*|   ___ |*|___|*| |*|   |*|___|*|  \*\/*/   \*\/*/     \ \ \ \ 
+|*|   |*| |*|   |*| |*|   |*|   |*|  /*/\*\    |*|       ) ) ) )
+\*\---|*| |*|   |*| |*|__ |*|   |*| /*/  \*\   |*|      / / / /
+ `------' '-'   '-' '----''-'   '-''-'    '-'  '-'     /_/_/_/
+____________________________________________________________________________________________________________________________
+07-05-2020 18:39:02.660 [main] INFO  com.ims.InventorySystemApplication.main - LG070520063840_635721382::REDIS CONFIGURATION START
+07-05-2020 18:39:02.660 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG070520063840_635721382::Checking Redis server is up & Running on port no: 6379
+07-05-2020 18:39:04.187 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-05-2020 18:39:04.189 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+07-05-2020 18:39:04.230 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 41 ms
+07-05-2020 18:39:04.783 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG070520063840_635721382::REDIS SERVER IS DOWN
+07-05-2020 18:39:04.783 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520063840_635721382::############EXCEPTION START###########
+07-05-2020 18:39:04.784 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520063840_635721382::redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+07-05-2020 18:39:04.784 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520063840_635721382::##########EXCEPTION END###########
+07-05-2020 18:39:04.785 [main] INFO  com.ims.InventorySystemApplication.main - LG070520063840_635721382::REDIS CONFIGURATION END
+07-05-2020 18:39:04.786 [main] INFO  com.ims.InventorySystemApplication.main - LG070520063840_635721382::QUITING SERVICE
+07-05-2020 18:39:04.786 [main] INFO  com.ims.InventorySystemApplication.main - LG070520063840_635721382:: Execution time:  23939
+07-05-2020 18:39:04.787 [main] INFO  com.ims.InventorySystemApplication.main - LG070520063840_635721382::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+07-05-2020 18:39:30.278 [http-nio-8084-exec-3] INFO  c.i.controller.login.LoginController.info - login/check
+07-05-2020 18:41:32.696 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2ec407ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-05-2020 18:41:35.045 [main] INFO  com.ims.InventorySystemApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+07-05-2020 18:41:36.483 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=784b9b19-4f44-37e7-9815-0504d43263b6
+07-05-2020 18:41:36.643 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$2ec407ed] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-05-2020 18:41:38.145 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8084 (http)
+07-05-2020 18:41:38.173 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8084"]
+07-05-2020 18:41:38.197 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-05-2020 18:41:38.198 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+07-05-2020 18:41:38.663 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-05-2020 18:41:38.663 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3599 ms
+07-05-2020 18:41:38.864 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+07-05-2020 18:41:38.865 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+07-05-2020 18:41:38.875 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+07-05-2020 18:41:38.876 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+07-05-2020 18:41:39.214 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-05-2020 18:41:43.852 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+07-05-2020 18:41:43.923 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+07-05-2020 18:41:43.925 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+07-05-2020 18:41:43.940 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1588857103939 with initial instances count: 0
+07-05-2020 18:41:43.948 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application TEST-SERVICE with eureka with status UP
+07-05-2020 18:41:43.967 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8084"]
+07-05-2020 18:41:44.020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8084 (http) with context path ''
+07-05-2020 18:41:44.024 [main] INFO  com.ims.InventorySystemApplication.logStarted - Started InventorySystemApplication in 14.846 seconds (JVM running for 15.791)
+07-05-2020 18:41:44.029 [main] INFO  com.ims.InventorySystemApplication.main - ________________________________________________________________________________________________________________________________
+   ____      ___     _       ___     __   __ __    __   __ _ _ 
+/*/        /*/ \*\  |*|    /*/ \*\  \*\  /*/ \*\  /*/   \ \ \ \
+|*|   ___ |*|___|*| |*|   |*|___|*|  \*\/*/   \*\/*/     \ \ \ \ 
+|*|   |*| |*|   |*| |*|   |*|   |*|  /*/\*\    |*|       ) ) ) )
+\*\---|*| |*|   |*| |*|__ |*|   |*| /*/  \*\   |*|      / / / /
+ `------' '-'   '-' '----''-'   '-''-'    '-'  '-'     /_/_/_/
+____________________________________________________________________________________________________________________________
+07-05-2020 18:41:44.031 [main] INFO  com.ims.InventorySystemApplication.main - LG070520064128_1546346291::REDIS CONFIGURATION START
+07-05-2020 18:41:44.031 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG070520064128_1546346291::Checking Redis server is up & Running on port no: 6379
+07-05-2020 18:41:46.171 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG070520064128_1546346291::REDIS SERVER IS DOWN
+07-05-2020 18:41:46.172 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520064128_1546346291::############EXCEPTION START###########
+07-05-2020 18:41:46.172 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520064128_1546346291::redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+07-05-2020 18:41:46.172 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520064128_1546346291::##########EXCEPTION END###########
+07-05-2020 18:41:46.173 [main] INFO  com.ims.InventorySystemApplication.main - LG070520064128_1546346291::REDIS CONFIGURATION END
+07-05-2020 18:41:46.173 [main] INFO  com.ims.InventorySystemApplication.main - LG070520064128_1546346291::QUITING SERVICE
+07-05-2020 18:41:46.173 [main] INFO  com.ims.InventorySystemApplication.main - LG070520064128_1546346291:: Execution time:  17232
+07-05-2020 18:41:46.173 [main] INFO  com.ims.InventorySystemApplication.main - LG070520064128_1546346291::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+07-05-2020 18:42:23.362 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-05-2020 18:42:23.363 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+07-05-2020 18:42:23.381 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 17 ms
+07-05-2020 18:42:43.197 [http-nio-8084-exec-4] INFO  c.i.controller.login.LoginController.info - login/check
+07-05-2020 18:45:34.751 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c00b631a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-05-2020 18:45:36.973 [main] INFO  com.ims.InventorySystemApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+07-05-2020 18:45:38.443 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=784b9b19-4f44-37e7-9815-0504d43263b6
+07-05-2020 18:45:38.588 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$c00b631a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+07-05-2020 18:45:40.047 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8084 (http)
+07-05-2020 18:45:40.070 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8084"]
+07-05-2020 18:45:40.093 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-05-2020 18:45:40.094 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+07-05-2020 18:45:40.513 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+07-05-2020 18:45:40.514 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3519 ms
+07-05-2020 18:45:40.714 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+07-05-2020 18:45:40.715 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+07-05-2020 18:45:40.722 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+07-05-2020 18:45:40.723 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+07-05-2020 18:45:41.033 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-05-2020 18:45:45.450 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+07-05-2020 18:45:45.529 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+07-05-2020 18:45:45.532 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+07-05-2020 18:45:45.550 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1588857345548 with initial instances count: 0
+07-05-2020 18:45:45.560 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application TEST-SERVICE with eureka with status UP
+07-05-2020 18:45:45.599 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8084"]
+07-05-2020 18:45:45.658 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8084 (http) with context path ''
+07-05-2020 18:45:45.661 [main] INFO  com.ims.InventorySystemApplication.logStarted - Started InventorySystemApplication in 14.448 seconds (JVM running for 15.461)
+07-05-2020 18:45:45.665 [main] INFO  com.ims.InventorySystemApplication.main - ________________________________________________________________________________________________________________________________
+   ____      ___     _       ___     __   __ __    __   __ _ _ 
+/*/        /*/ \*\  |*|    /*/ \*\  \*\  /*/ \*\  /*/   \ \ \ \
+|*|   ___ |*|___|*| |*|   |*|___|*|  \*\/*/   \*\/*/     \ \ \ \ 
+|*|   |*| |*|   |*| |*|   |*|   |*|  /*/\*\    |*|       ) ) ) )
+\*\---|*| |*|   |*| |*|__ |*|   |*| /*/  \*\   |*|      / / / /
+ `------' '-'   '-' '----''-'   '-''-'    '-'  '-'     /_/_/_/
+____________________________________________________________________________________________________________________________
+07-05-2020 18:45:45.667 [main] INFO  com.ims.InventorySystemApplication.main - LG070520064530_1337325765::REDIS CONFIGURATION START
+07-05-2020 18:45:45.667 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG070520064530_1337325765::Checking Redis server is up & Running on port no: 6379
+07-05-2020 18:45:47.752 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG070520064530_1337325765::REDIS SERVER IS DOWN
+07-05-2020 18:45:47.753 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520064530_1337325765::############EXCEPTION START###########
+07-05-2020 18:45:47.753 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520064530_1337325765::redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+07-05-2020 18:45:47.753 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG070520064530_1337325765::##########EXCEPTION END###########
+07-05-2020 18:45:47.754 [main] INFO  com.ims.InventorySystemApplication.main - LG070520064530_1337325765::REDIS CONFIGURATION END
+07-05-2020 18:45:47.754 [main] INFO  com.ims.InventorySystemApplication.main - LG070520064530_1337325765::QUITING SERVICE
+07-05-2020 18:45:47.754 [main] INFO  com.ims.InventorySystemApplication.main - LG070520064530_1337325765:: Execution time:  16792
+07-05-2020 18:45:47.754 [main] INFO  com.ims.InventorySystemApplication.main - LG070520064530_1337325765::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+07-05-2020 18:45:52.384 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-05-2020 18:45:52.385 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+07-05-2020 18:45:52.400 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 14 ms
+07-05-2020 18:45:52.451 [http-nio-8084-exec-1] INFO  c.i.controller.login.LoginController.info - login/check
+07-05-2020 18:45:53.348 [http-nio-8084-exec-3] INFO  c.i.controller.login.LoginController.info - login/check
+07-05-2020 18:45:53.969 [http-nio-8084-exec-5] INFO  c.i.controller.login.LoginController.info - login/check
+07-05-2020 18:45:54.267 [http-nio-8084-exec-7] INFO  c.i.controller.login.LoginController.info - login/check
+07-05-2020 18:45:54.445 [http-nio-8084-exec-9] INFO  c.i.controller.login.LoginController.info - login/check
+07-05-2020 18:47:58.743 [http-nio-8084-exec-3] INFO  c.i.controller.login.LoginController.info - login/check
+07-05-2020 18:47:59.384 [http-nio-8084-exec-5] INFO  c.i.controller.login.LoginController.info - login/check
+07-05-2020 18:48:07.071 [http-nio-8084-exec-7] INFO  c.i.controller.login.LoginController.info - login/check

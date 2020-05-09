@@ -1,0 +1,148 @@
+23-11-2019 13:16:05.727 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23-11-2019 13:16:07.974 [main] INFO  com.ims.InventorySystemApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+23-11-2019 13:16:09.813 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=784b9b19-4f44-37e7-9815-0504d43263b6
+23-11-2019 13:16:10.016 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$10d214b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23-11-2019 13:16:11.634 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8084 (http)
+23-11-2019 13:16:11.668 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8084"]
+23-11-2019 13:16:11.701 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+23-11-2019 13:16:11.701 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+23-11-2019 13:16:12.226 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+23-11-2019 13:16:12.227 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4225 ms
+23-11-2019 13:16:12.502 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+23-11-2019 13:16:12.503 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23-11-2019 13:16:12.522 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+23-11-2019 13:16:12.522 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23-11-2019 13:16:12.931 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+23-11-2019 13:16:17.667 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+23-11-2019 13:16:17.772 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+23-11-2019 13:16:17.775 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+23-11-2019 13:16:17.810 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1574495177806 with initial instances count: 0
+23-11-2019 13:16:17.825 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application TEST-SERVICE with eureka with status UP
+23-11-2019 13:16:17.866 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8084"]
+23-11-2019 13:16:17.923 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8084 (http) with context path ''
+23-11-2019 13:16:17.928 [main] INFO  com.ims.InventorySystemApplication.logStarted - Started InventorySystemApplication in 16.572 seconds (JVM running for 18.392)
+23-11-2019 13:16:17.937 [main] INFO  com.ims.InventorySystemApplication.main - ________________________________________________________________________________________________________________________________
+   ____      ___     _       ___     __   __ __    __   __ _ _ 
+/*/        /*/ \*\  |*|    /*/ \*\  \*\  /*/ \*\  /*/   \ \ \ \
+|*|   ___ |*|___|*| |*|   |*|___|*|  \*\/*/   \*\/*/     \ \ \ \ 
+|*|   |*| |*|   |*| |*|   |*|   |*|  /*/\*\    |*|       ) ) ) )
+\*\---|*| |*|   |*| |*|__ |*|   |*| /*/  \*\   |*|      / / / /
+ `------' '-'   '-' '----''-'   '-''-'    '-'  '-'     /_/_/_/
+____________________________________________________________________________________________________________________________
+23-11-2019 13:16:17.939 [main] INFO  com.ims.InventorySystemApplication.main - LG231119011600_1807603621::REDIS CONFIGURATION START
+23-11-2019 13:16:17.939 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG231119011600_1807603621::Checking Redis server is up & Running on port no: 6379
+23-11-2019 13:16:20.032 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG231119011600_1807603621::REDIS SERVER IS DOWN
+23-11-2019 13:16:20.033 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG231119011600_1807603621::############EXCEPTION START###########
+23-11-2019 13:16:20.033 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG231119011600_1807603621::redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+23-11-2019 13:16:20.033 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG231119011600_1807603621::##########EXCEPTION END###########
+23-11-2019 13:16:20.034 [main] INFO  com.ims.InventorySystemApplication.main - LG231119011600_1807603621::REDIS CONFIGURATION END
+23-11-2019 13:16:20.034 [main] INFO  com.ims.InventorySystemApplication.main - LG231119011600_1807603621::QUITING SERVICE
+23-11-2019 13:16:20.035 [main] INFO  com.ims.InventorySystemApplication.main - LG231119011600_1807603621:: Execution time:  19051
+23-11-2019 13:16:20.035 [main] INFO  com.ims.InventorySystemApplication.main - LG231119011600_1807603621::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+23-11-2019 13:22:03.919 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-11-2019 13:22:03.920 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+23-11-2019 13:22:03.932 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 12 ms
+23-11-2019 13:22:04.015 [http-nio-8084-exec-1] INFO  com.ims.controller.LoginController.validateLogin - 62738[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+23-11-2019 13:22:04.015 [http-nio-8084-exec-1] INFO  com.ims.controller.LoginController.validateLogin - 62738##INPUT START##
+23-11-2019 13:22:04.015 [http-nio-8084-exec-1] INFO  com.ims.controller.LoginController.validateLogin - 62738##INPUT END##
+23-11-2019 13:22:04.016 [http-nio-8084-exec-1] INFO  com.ims.dao.LoginDAOImpl.validateUserDAO -  >>>>>>>>>>>>GETTING DETAILS FOR ID & PASSWORD >>>>>>>>>0000>>>>>>>> 1234
+23-11-2019 13:22:04.019 [http-nio-8084-exec-1] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 111getting session from database
+23-11-2019 13:22:04.183 [http-nio-8084-exec-1] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.0.12.Final}
+23-11-2019 13:22:04.186 [http-nio-8084-exec-1] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+23-11-2019 13:22:04.188 [http-nio-8084-exec-1] INFO  org.hibernate.cfg.Environment.buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+23-11-2019 13:22:04.201 [http-nio-8084-exec-1] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 111Trying to connect db URL: jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB
+23-11-2019 13:22:04.283 [http-nio-8084-exec-1] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23-11-2019 13:22:04.480 [http-nio-8084-exec-1] WARN  org.hibernate.orm.connections.configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23-11-2019 13:22:04.495 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+23-11-2019 13:22:04.496 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001001: Connection properties: {user=root, password=****}
+23-11-2019 13:22:04.496 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001003: Autocommit mode: false
+23-11-2019 13:22:04.502 [http-nio-8084-exec-1] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl.<init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+23-11-2019 13:22:04.769 [http-nio-8084-exec-1] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 111CONNECTION FAILURE
+23-11-2019 13:22:04.770 [http-nio-8084-exec-1] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 111############EXCEPTION START###########
+23-11-2019 13:22:04.770 [http-nio-8084-exec-1] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 111org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+23-11-2019 13:22:04.771 [http-nio-8084-exec-1] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 111##########EXCEPTION END###########
+23-11-2019 13:22:04.773 [http-nio-8084-exec-1] ERROR com.ims.dao.LoginDAOImpl.validateUserDAO - 111############EXCEPTION START###########
+23-11-2019 13:22:04.773 [http-nio-8084-exec-1] ERROR com.ims.dao.LoginDAOImpl.validateUserDAO - 111java.lang.NullPointerException
+23-11-2019 13:22:04.774 [http-nio-8084-exec-1] ERROR com.ims.dao.LoginDAOImpl.validateUserDAO - 111##########EXCEPTION END###########
+23-11-2019 13:22:04.774 [http-nio-8084-exec-1] INFO  com.ims.controller.LoginController.validateLogin - 62738 Execution time : 760
+23-11-2019 13:22:04.774 [http-nio-8084-exec-1] INFO  com.ims.controller.LoginController.validateLogin - 62738[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+23-11-2019 13:24:12.937 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f9e460be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23-11-2019 13:24:15.477 [main] INFO  com.ims.InventorySystemApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+23-11-2019 13:24:16.980 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=784b9b19-4f44-37e7-9815-0504d43263b6
+23-11-2019 13:24:17.135 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f9e460be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23-11-2019 13:24:18.682 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8084 (http)
+23-11-2019 13:24:18.718 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8084"]
+23-11-2019 13:24:18.753 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+23-11-2019 13:24:18.754 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+23-11-2019 13:24:19.307 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+23-11-2019 13:24:19.308 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3809 ms
+23-11-2019 13:24:19.554 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+23-11-2019 13:24:19.555 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23-11-2019 13:24:19.567 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+23-11-2019 13:24:19.568 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+23-11-2019 13:24:19.924 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+23-11-2019 13:24:24.238 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+23-11-2019 13:24:24.334 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+23-11-2019 13:24:24.339 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+23-11-2019 13:24:24.362 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1574495664360 with initial instances count: 0
+23-11-2019 13:24:24.379 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application TEST-SERVICE with eureka with status UP
+23-11-2019 13:24:24.406 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8084"]
+23-11-2019 13:24:24.471 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8084 (http) with context path ''
+23-11-2019 13:24:24.482 [main] INFO  com.ims.InventorySystemApplication.logStarted - Started InventorySystemApplication in 15.599 seconds (JVM running for 16.727)
+23-11-2019 13:24:24.490 [main] INFO  com.ims.InventorySystemApplication.main - ________________________________________________________________________________________________________________________________
+   ____      ___     _       ___     __   __ __    __   __ _ _ 
+/*/        /*/ \*\  |*|    /*/ \*\  \*\  /*/ \*\  /*/   \ \ \ \
+|*|   ___ |*|___|*| |*|   |*|___|*|  \*\/*/   \*\/*/     \ \ \ \ 
+|*|   |*| |*|   |*| |*|   |*|   |*|  /*/\*\    |*|       ) ) ) )
+\*\---|*| |*|   |*| |*|__ |*|   |*| /*/  \*\   |*|      / / / /
+ `------' '-'   '-' '----''-'   '-''-'    '-'  '-'     /_/_/_/
+____________________________________________________________________________________________________________________________
+23-11-2019 13:24:24.492 [main] INFO  com.ims.InventorySystemApplication.main - LG231119012408_270570140::REDIS CONFIGURATION START
+23-11-2019 13:24:24.495 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG231119012408_270570140::Checking Redis server is up & Running on port no: 6379
+23-11-2019 13:24:26.583 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG231119012408_270570140::REDIS SERVER IS DOWN
+23-11-2019 13:24:26.584 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG231119012408_270570140::############EXCEPTION START###########
+23-11-2019 13:24:26.584 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG231119012408_270570140::redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+23-11-2019 13:24:26.584 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG231119012408_270570140::##########EXCEPTION END###########
+23-11-2019 13:24:26.585 [main] INFO  com.ims.InventorySystemApplication.main - LG231119012408_270570140::REDIS CONFIGURATION END
+23-11-2019 13:24:26.585 [main] INFO  com.ims.InventorySystemApplication.main - LG231119012408_270570140::QUITING SERVICE
+23-11-2019 13:24:26.585 [main] INFO  com.ims.InventorySystemApplication.main - LG231119012408_270570140:: Execution time:  17982
+23-11-2019 13:24:26.585 [main] INFO  com.ims.InventorySystemApplication.main - LG231119012408_270570140::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+23-11-2019 13:26:37.926 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-11-2019 13:26:37.927 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+23-11-2019 13:26:37.941 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 14 ms
+23-11-2019 13:26:38.044 [http-nio-8084-exec-1] INFO  com.ims.controller.LoginController.validateLogin - 18789[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+23-11-2019 13:26:38.044 [http-nio-8084-exec-1] INFO  com.ims.controller.LoginController.validateLogin - 18789##INPUT START##
+23-11-2019 13:26:38.045 [http-nio-8084-exec-1] INFO  com.ims.controller.LoginController.validateLogin - 18789##INPUT END##
+23-11-2019 13:26:38.046 [http-nio-8084-exec-1] INFO  com.ims.dao.LoginDAOImpl.validateUserDAO -  >>>>>>>>>>>>GETTING DETAILS FOR ID & PASSWORD >>>>>>>>>0000>>>>>>>> 1234
+23-11-2019 13:26:38.051 [http-nio-8084-exec-1] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 111getting session from database
+23-11-2019 13:26:38.264 [http-nio-8084-exec-1] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.0.12.Final}
+23-11-2019 13:26:38.269 [http-nio-8084-exec-1] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+23-11-2019 13:26:38.271 [http-nio-8084-exec-1] INFO  org.hibernate.cfg.Environment.buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+23-11-2019 13:26:38.289 [http-nio-8084-exec-1] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 111Trying to connect db URL: jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB
+23-11-2019 13:26:38.381 [http-nio-8084-exec-1] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23-11-2019 13:26:38.582 [http-nio-8084-exec-1] WARN  org.hibernate.orm.connections.configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+23-11-2019 13:26:38.594 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+23-11-2019 13:26:38.596 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001001: Connection properties: {user=root, password=****}
+23-11-2019 13:26:38.597 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001003: Autocommit mode: false
+23-11-2019 13:26:38.604 [http-nio-8084-exec-1] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl.<init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+23-11-2019 13:26:38.891 [http-nio-8084-exec-1] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+23-11-2019 13:26:40.958 [http-nio-8084-exec-1] INFO  com.ims.controller.LoginController.validateLogin - 18789 Execution time : 2915
+23-11-2019 13:26:40.962 [http-nio-8084-exec-1] INFO  com.ims.controller.LoginController.validateLogin - 18789[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+23-11-2019 13:29:49.973 [http-nio-8084-exec-3] INFO  com.ims.controller.LoginController.validateLogin - 99893[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+23-11-2019 13:29:49.974 [http-nio-8084-exec-3] INFO  com.ims.controller.LoginController.validateLogin - 99893##INPUT START##
+23-11-2019 13:29:49.975 [http-nio-8084-exec-3] INFO  com.ims.controller.LoginController.validateLogin - 99893##INPUT END##
+23-11-2019 13:29:49.975 [http-nio-8084-exec-3] INFO  com.ims.dao.LoginDAOImpl.validateUserDAO -  >>>>>>>>>>>>GETTING DETAILS FOR ID & PASSWORD >>>>>>>>>0000>>>>>>>> 1234
+23-11-2019 13:29:49.976 [http-nio-8084-exec-3] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 111getting session from database
+23-11-2019 13:29:49.983 [http-nio-8084-exec-3] INFO  com.ims.controller.LoginController.validateLogin - 99893 Execution time : 10
+23-11-2019 13:29:49.983 [http-nio-8084-exec-3] INFO  com.ims.controller.LoginController.validateLogin - 99893[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+23-11-2019 13:30:39.963 [http-nio-8084-exec-4] INFO  com.ims.controller.LoginController.validateLogin - 40874[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+23-11-2019 13:30:39.964 [http-nio-8084-exec-4] INFO  com.ims.controller.LoginController.validateLogin - 40874##INPUT START##
+23-11-2019 13:30:39.964 [http-nio-8084-exec-4] INFO  com.ims.controller.LoginController.validateLogin - 40874##INPUT END##
+23-11-2019 13:30:39.965 [http-nio-8084-exec-4] INFO  com.ims.dao.LoginDAOImpl.validateUserDAO -  >>>>>>>>>>>>GETTING DETAILS FOR ID & PASSWORD >>>>>>>>>0000>>>>>>>> 1234
+23-11-2019 13:30:39.965 [http-nio-8084-exec-4] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 111getting session from database
+23-11-2019 13:30:39.970 [http-nio-8084-exec-4] INFO  com.ims.controller.LoginController.validateLogin - 40874 Execution time : 7
+23-11-2019 13:30:39.971 [http-nio-8084-exec-4] INFO  com.ims.controller.LoginController.validateLogin - 40874[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+

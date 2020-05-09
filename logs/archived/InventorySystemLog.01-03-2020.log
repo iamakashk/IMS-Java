@@ -1,0 +1,203 @@
+01-03-2020 17:54:26.890 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b46fac46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+01-03-2020 17:54:29.867 [main] INFO  com.ims.InventorySystemApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+01-03-2020 17:54:31.649 [main] INFO  o.s.cloud.context.scope.GenericScope.setSerializationId - BeanFactory id=784b9b19-4f44-37e7-9815-0504d43263b6
+01-03-2020 17:54:31.864 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b46fac46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+01-03-2020 17:54:33.624 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8084 (http)
+01-03-2020 17:54:33.655 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8084"]
+01-03-2020 17:54:33.680 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+01-03-2020 17:54:33.681 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.17]
+01-03-2020 17:54:34.378 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+01-03-2020 17:54:34.379 [main] INFO  o.s.web.context.ContextLoader.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 4486 ms
+01-03-2020 17:54:34.932 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+01-03-2020 17:54:34.936 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+01-03-2020 17:54:34.960 [main] WARN  c.n.c.sources.URLConfigurationSource.<init> - No URLs will be polled as dynamic configuration sources.
+01-03-2020 17:54:34.961 [main] INFO  c.n.c.sources.URLConfigurationSource.<init> - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+01-03-2020 17:54:35.317 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+01-03-2020 17:54:40.677 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory.create - Setting initial instance status as: STARTING
+01-03-2020 17:54:40.776 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Initializing Eureka in region us-east-1
+01-03-2020 17:54:40.780 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Client configured to neither register nor query for data.
+01-03-2020 17:54:40.799 [main] INFO  c.netflix.discovery.DiscoveryClient.<init> - Discovery Client initialized at timestamp 1583065480797 with initial instances count: 0
+01-03-2020 17:54:40.810 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry.register - Registering application TEST-SERVICE with eureka with status UP
+01-03-2020 17:54:40.838 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8084"]
+01-03-2020 17:54:40.896 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8084 (http) with context path ''
+01-03-2020 17:54:40.904 [main] INFO  com.ims.InventorySystemApplication.logStarted - Started InventorySystemApplication in 18.522 seconds (JVM running for 19.963)
+01-03-2020 17:54:40.907 [main] INFO  com.ims.InventorySystemApplication.main - ________________________________________________________________________________________________________________________________
+   ____      ___     _       ___     __   __ __    __   __ _ _ 
+/*/        /*/ \*\  |*|    /*/ \*\  \*\  /*/ \*\  /*/   \ \ \ \
+|*|   ___ |*|___|*| |*|   |*|___|*|  \*\/*/   \*\/*/     \ \ \ \ 
+|*|   |*| |*|   |*| |*|   |*|   |*|  /*/\*\    |*|       ) ) ) )
+\*\---|*| |*|   |*| |*|__ |*|   |*| /*/  \*\   |*|      / / / /
+ `------' '-'   '-' '----''-'   '-''-'    '-'  '-'     /_/_/_/
+____________________________________________________________________________________________________________________________
+01-03-2020 17:54:40.909 [main] INFO  com.ims.InventorySystemApplication.main - LG010320055422_2090886519::REDIS CONFIGURATION START
+01-03-2020 17:54:40.909 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG010320055422_2090886519::Checking Redis server is up & Running on port no: 6379
+01-03-2020 17:54:42.998 [main] INFO  com.ims.InventorySystemApplication.isRedisServerUp - LG010320055422_2090886519::REDIS SERVER IS DOWN
+01-03-2020 17:54:42.999 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG010320055422_2090886519::############EXCEPTION START###########
+01-03-2020 17:54:42.999 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG010320055422_2090886519::redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+01-03-2020 17:54:42.999 [main] ERROR com.ims.InventorySystemApplication.isRedisServerUp - LG010320055422_2090886519::##########EXCEPTION END###########
+01-03-2020 17:54:43.000 [main] INFO  com.ims.InventorySystemApplication.main - LG010320055422_2090886519::REDIS CONFIGURATION END
+01-03-2020 17:54:43.001 [main] INFO  com.ims.InventorySystemApplication.main - LG010320055422_2090886519::QUITING SERVICE
+01-03-2020 17:54:43.001 [main] INFO  com.ims.InventorySystemApplication.main - LG010320055422_2090886519:: Execution time:  20911
+01-03-2020 17:54:43.001 [main] INFO  com.ims.InventorySystemApplication.main - LG010320055422_2090886519::XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+01-03-2020 18:13:58.188 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01-03-2020 18:13:58.189 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+01-03-2020 18:13:58.208 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 18 ms
+01-03-2020 18:13:58.309 [http-nio-8084-exec-1] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 46144[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:13:58.310 [http-nio-8084-exec-1] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 46144##INPUT START##
+01-03-2020 18:13:58.310 [http-nio-8084-exec-1] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 46144##INPUT END##
+01-03-2020 18:13:58.310 [http-nio-8084-exec-1] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 46144[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:13:58.311 [http-nio-8084-exec-1] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 46144##INPUT START##
+01-03-2020 18:13:58.311 [http-nio-8084-exec-1] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 46144##INPUT END##
+01-03-2020 18:13:58.313 [http-nio-8084-exec-1] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 46144getting session from database
+01-03-2020 18:13:58.551 [http-nio-8084-exec-1] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.0.12.Final}
+01-03-2020 18:13:58.557 [http-nio-8084-exec-1] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+01-03-2020 18:13:58.559 [http-nio-8084-exec-1] INFO  org.hibernate.cfg.Environment.buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+01-03-2020 18:13:58.579 [http-nio-8084-exec-1] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 46144Trying to connect db URL: jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB
+01-03-2020 18:13:58.657 [http-nio-8084-exec-1] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-03-2020 18:13:58.817 [http-nio-8084-exec-1] WARN  org.hibernate.orm.connections.configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-03-2020 18:13:58.830 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+01-03-2020 18:13:58.831 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001001: Connection properties: {user=root, password=****}
+01-03-2020 18:13:58.831 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001003: Autocommit mode: false
+01-03-2020 18:13:58.837 [http-nio-8084-exec-1] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl.<init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+01-03-2020 18:13:59.095 [http-nio-8084-exec-1] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 46144CONNECTION FAILURE
+01-03-2020 18:13:59.095 [http-nio-8084-exec-1] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 46144############EXCEPTION START###########
+01-03-2020 18:13:59.096 [http-nio-8084-exec-1] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 46144org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+01-03-2020 18:13:59.096 [http-nio-8084-exec-1] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 46144##########EXCEPTION END###########
+01-03-2020 18:13:59.098 [http-nio-8084-exec-1] ERROR c.ims.dao.AreaLocationSourceDAOImpl.getAreaLocationDAO - 46144############EXCEPTION START###########
+01-03-2020 18:13:59.099 [http-nio-8084-exec-1] ERROR c.ims.dao.AreaLocationSourceDAOImpl.getAreaLocationDAO - 46144java.lang.NullPointerException
+01-03-2020 18:13:59.099 [http-nio-8084-exec-1] ERROR c.ims.dao.AreaLocationSourceDAOImpl.getAreaLocationDAO - 46144##########EXCEPTION END###########
+01-03-2020 18:13:59.099 [http-nio-8084-exec-1] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 46144 Execution time : 789
+01-03-2020 18:13:59.100 [http-nio-8084-exec-1] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 46144[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+01-03-2020 18:13:59.100 [http-nio-8084-exec-1] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 46144 Execution time : 792
+01-03-2020 18:13:59.100 [http-nio-8084-exec-1] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 46144[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+01-03-2020 18:14:02.659 [http-nio-8084-exec-3] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 35191[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:14:02.660 [http-nio-8084-exec-3] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 35191##INPUT START##
+01-03-2020 18:14:02.661 [http-nio-8084-exec-3] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 35191##INPUT END##
+01-03-2020 18:14:02.662 [http-nio-8084-exec-3] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 35191[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:14:02.662 [http-nio-8084-exec-3] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 35191##INPUT START##
+01-03-2020 18:14:02.663 [http-nio-8084-exec-3] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 35191##INPUT END##
+01-03-2020 18:14:02.663 [http-nio-8084-exec-3] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 35191getting session from database
+01-03-2020 18:14:02.678 [http-nio-8084-exec-4] INFO  c.i.controller.ItemMasterController.getAllItems - 19336[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:14:02.679 [http-nio-8084-exec-4] INFO  c.i.controller.ItemMasterController.getAllItems - 19336##INPUT START##
+01-03-2020 18:14:02.680 [http-nio-8084-exec-3] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 35191Trying to connect db URL: jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB
+01-03-2020 18:14:02.680 [http-nio-8084-exec-4] INFO  c.i.controller.ItemMasterController.getAllItems - 19336##INPUT END##
+01-03-2020 18:14:02.681 [http-nio-8084-exec-4] INFO  com.ims.service.ItemServiceImpl.getAllItemsService - 19336[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:14:02.681 [http-nio-8084-exec-4] INFO  com.ims.service.ItemServiceImpl.getAllItemsService - 19336##INPUT START##
+01-03-2020 18:14:02.681 [http-nio-8084-exec-4] INFO  com.ims.service.ItemServiceImpl.getAllItemsService - 19336##INPUT END##
+01-03-2020 18:14:02.683 [http-nio-8084-exec-4] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 19336getting session from database
+01-03-2020 18:14:02.688 [http-nio-8084-exec-2] INFO  c.i.c.AreaLocationSourceController.getCustomerSource - 79622[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:14:02.689 [http-nio-8084-exec-2] INFO  c.i.c.AreaLocationSourceController.getCustomerSource - 79622##INPUT START##
+01-03-2020 18:14:02.689 [http-nio-8084-exec-2] INFO  c.i.c.AreaLocationSourceController.getCustomerSource - 79622##INPUT END##
+01-03-2020 18:14:02.690 [http-nio-8084-exec-2] INFO  c.i.s.AreaLocationSourceServiceImpl.getSourceService - 79622[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:14:02.690 [http-nio-8084-exec-2] INFO  c.i.s.AreaLocationSourceServiceImpl.getSourceService - 79622##INPUT START##
+01-03-2020 18:14:02.692 [http-nio-8084-exec-2] INFO  c.i.s.AreaLocationSourceServiceImpl.getSourceService - 79622##INPUT END##
+01-03-2020 18:14:02.693 [http-nio-8084-exec-2] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 79622getting session from database
+01-03-2020 18:14:02.696 [http-nio-8084-exec-4] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 19336Trying to connect db URL: jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB
+01-03-2020 18:14:02.701 [http-nio-8084-exec-3] WARN  org.hibernate.orm.connections.configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-03-2020 18:14:02.709 [http-nio-8084-exec-3] INFO  org.hibernate.orm.connections.buildCreator - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+01-03-2020 18:14:02.711 [http-nio-8084-exec-3] INFO  org.hibernate.orm.connections.buildCreator - HHH10001001: Connection properties: {user=root, password=****}
+01-03-2020 18:14:02.712 [http-nio-8084-exec-3] INFO  org.hibernate.orm.connections.buildCreator - HHH10001003: Autocommit mode: false
+01-03-2020 18:14:02.713 [http-nio-8084-exec-3] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl.<init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+01-03-2020 18:14:02.735 [http-nio-8084-exec-4] WARN  org.hibernate.orm.connections.configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-03-2020 18:14:02.736 [http-nio-8084-exec-4] INFO  org.hibernate.orm.connections.buildCreator - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+01-03-2020 18:14:02.739 [http-nio-8084-exec-4] INFO  org.hibernate.orm.connections.buildCreator - HHH10001001: Connection properties: {user=root, password=****}
+01-03-2020 18:14:02.743 [http-nio-8084-exec-4] INFO  org.hibernate.orm.connections.buildCreator - HHH10001003: Autocommit mode: false
+01-03-2020 18:14:02.743 [http-nio-8084-exec-4] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl.<init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+01-03-2020 18:14:02.713 [http-nio-8084-exec-2] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 79622Trying to connect db URL: jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB
+01-03-2020 18:14:02.769 [http-nio-8084-exec-2] WARN  org.hibernate.orm.connections.configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-03-2020 18:14:02.771 [http-nio-8084-exec-2] INFO  org.hibernate.orm.connections.buildCreator - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+01-03-2020 18:14:02.773 [http-nio-8084-exec-2] INFO  org.hibernate.orm.connections.buildCreator - HHH10001001: Connection properties: {user=root, password=****}
+01-03-2020 18:14:02.773 [http-nio-8084-exec-2] INFO  org.hibernate.orm.connections.buildCreator - HHH10001003: Autocommit mode: false
+01-03-2020 18:14:02.774 [http-nio-8084-exec-2] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl.<init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+01-03-2020 18:14:02.784 [http-nio-8084-exec-6] INFO  com.ims.controller.EnquiryController.getEnquiry - 55164[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:14:02.785 [http-nio-8084-exec-6] INFO  com.ims.controller.EnquiryController.getEnquiry - 55164##INPUT START##
+01-03-2020 18:14:02.785 [http-nio-8084-exec-6] INFO  com.ims.controller.EnquiryController.getEnquiry - 55164##INPUT END##
+01-03-2020 18:14:02.786 [http-nio-8084-exec-6] INFO  com.ims.service.EnquiryServiceImpl.getEnquiry - 55164[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:14:02.786 [http-nio-8084-exec-6] INFO  com.ims.service.EnquiryServiceImpl.getEnquiry - 55164##INPUT START##
+01-03-2020 18:14:02.787 [http-nio-8084-exec-6] INFO  com.ims.service.EnquiryServiceImpl.getEnquiry - 55164##INPUT END##
+01-03-2020 18:14:02.787 [http-nio-8084-exec-6] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 55164getting session from database
+01-03-2020 18:14:02.795 [http-nio-8084-exec-6] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 55164Trying to connect db URL: jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB
+01-03-2020 18:14:02.806 [http-nio-8084-exec-6] WARN  org.hibernate.orm.connections.configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-03-2020 18:14:02.807 [http-nio-8084-exec-6] INFO  org.hibernate.orm.connections.buildCreator - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+01-03-2020 18:14:02.808 [http-nio-8084-exec-6] INFO  org.hibernate.orm.connections.buildCreator - HHH10001001: Connection properties: {user=root, password=****}
+01-03-2020 18:14:02.810 [http-nio-8084-exec-6] INFO  org.hibernate.orm.connections.buildCreator - HHH10001003: Autocommit mode: false
+01-03-2020 18:14:02.811 [http-nio-8084-exec-6] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl.<init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+01-03-2020 18:14:02.835 [http-nio-8084-exec-3] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 35191CONNECTION FAILURE
+01-03-2020 18:14:02.835 [http-nio-8084-exec-3] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 35191############EXCEPTION START###########
+01-03-2020 18:14:02.836 [http-nio-8084-exec-3] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 35191org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+01-03-2020 18:14:02.836 [http-nio-8084-exec-3] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 35191##########EXCEPTION END###########
+01-03-2020 18:14:02.846 [http-nio-8084-exec-6] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 55164CONNECTION FAILURE
+01-03-2020 18:14:02.847 [http-nio-8084-exec-6] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 55164############EXCEPTION START###########
+01-03-2020 18:14:02.847 [http-nio-8084-exec-6] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 55164org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+01-03-2020 18:14:02.848 [http-nio-8084-exec-6] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 55164##########EXCEPTION END###########
+01-03-2020 18:14:02.855 [http-nio-8084-exec-2] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 79622CONNECTION FAILURE
+01-03-2020 18:14:02.855 [http-nio-8084-exec-2] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 79622############EXCEPTION START###########
+01-03-2020 18:14:02.856 [http-nio-8084-exec-2] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 79622org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+01-03-2020 18:14:02.857 [http-nio-8084-exec-2] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 79622##########EXCEPTION END###########
+01-03-2020 18:14:02.863 [http-nio-8084-exec-4] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 19336CONNECTION FAILURE
+01-03-2020 18:14:02.863 [http-nio-8084-exec-4] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 19336############EXCEPTION START###########
+01-03-2020 18:14:02.863 [http-nio-8084-exec-4] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 19336org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+01-03-2020 18:14:02.864 [http-nio-8084-exec-4] ERROR com.ims.helper.HibernateUtil.getSessionFactory - 19336##########EXCEPTION END###########
+01-03-2020 18:14:02.864 [http-nio-8084-exec-2] ERROR c.ims.dao.AreaLocationSourceDAOImpl.getSourceDAO - 79622############EXCEPTION START###########
+01-03-2020 18:14:02.864 [http-nio-8084-exec-2] ERROR c.ims.dao.AreaLocationSourceDAOImpl.getSourceDAO - 79622java.lang.NullPointerException
+01-03-2020 18:14:02.864 [http-nio-8084-exec-2] ERROR c.ims.dao.AreaLocationSourceDAOImpl.getSourceDAO - 79622##########EXCEPTION END###########
+01-03-2020 18:14:02.865 [http-nio-8084-exec-2] INFO  c.i.s.AreaLocationSourceServiceImpl.getSourceService - 79622 Execution time : 175
+01-03-2020 18:14:02.865 [http-nio-8084-exec-6] ERROR com.ims.dao.EnquiryDAOImpl.getEnquiry - 55164############EXCEPTION START###########
+01-03-2020 18:14:02.865 [http-nio-8084-exec-2] INFO  c.i.s.AreaLocationSourceServiceImpl.getSourceService - 79622[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+01-03-2020 18:14:02.865 [http-nio-8084-exec-6] ERROR com.ims.dao.EnquiryDAOImpl.getEnquiry - 55164java.lang.NullPointerException
+01-03-2020 18:14:02.865 [http-nio-8084-exec-2] INFO  c.i.c.AreaLocationSourceController.getCustomerSource - 79622 Execution time : 177
+01-03-2020 18:14:02.866 [http-nio-8084-exec-6] ERROR com.ims.dao.EnquiryDAOImpl.getEnquiry - 55164##########EXCEPTION END###########
+01-03-2020 18:14:02.866 [http-nio-8084-exec-2] INFO  c.i.c.AreaLocationSourceController.getCustomerSource - 79622[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+01-03-2020 18:14:02.866 [http-nio-8084-exec-6] INFO  com.ims.service.EnquiryServiceImpl.getEnquiry - 55164 Execution time : 80
+01-03-2020 18:14:02.866 [http-nio-8084-exec-6] INFO  com.ims.service.EnquiryServiceImpl.getEnquiry - 55164[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+01-03-2020 18:14:02.867 [http-nio-8084-exec-6] INFO  com.ims.controller.EnquiryController.getEnquiry - 55164 Execution time : 83
+01-03-2020 18:14:02.867 [http-nio-8084-exec-6] INFO  com.ims.controller.EnquiryController.getEnquiry - 55164[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+01-03-2020 18:14:02.872 [http-nio-8084-exec-3] ERROR c.ims.dao.AreaLocationSourceDAOImpl.getAreaLocationDAO - 35191############EXCEPTION START###########
+01-03-2020 18:14:02.873 [http-nio-8084-exec-3] ERROR c.ims.dao.AreaLocationSourceDAOImpl.getAreaLocationDAO - 35191java.lang.NullPointerException
+01-03-2020 18:14:02.873 [http-nio-8084-exec-3] ERROR c.ims.dao.AreaLocationSourceDAOImpl.getAreaLocationDAO - 35191##########EXCEPTION END###########
+01-03-2020 18:14:02.873 [http-nio-8084-exec-3] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 35191 Execution time : 211
+01-03-2020 18:14:02.874 [http-nio-8084-exec-3] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 35191[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+01-03-2020 18:14:02.874 [http-nio-8084-exec-3] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 35191 Execution time : 215
+01-03-2020 18:14:02.875 [http-nio-8084-exec-3] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 35191[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+01-03-2020 18:14:02.880 [http-nio-8084-exec-4] ERROR com.ims.dao.ItemMasterDAOImpl.getAllItemsDAO - 19336############EXCEPTION START###########
+01-03-2020 18:14:02.881 [http-nio-8084-exec-4] ERROR com.ims.dao.ItemMasterDAOImpl.getAllItemsDAO - 19336java.lang.NullPointerException
+01-03-2020 18:14:02.881 [http-nio-8084-exec-4] ERROR com.ims.dao.ItemMasterDAOImpl.getAllItemsDAO - 19336##########EXCEPTION END###########
+01-03-2020 18:14:02.882 [http-nio-8084-exec-4] INFO  com.ims.service.ItemServiceImpl.getAllItemsService - 19336 Execution time : 201
+01-03-2020 18:14:02.882 [http-nio-8084-exec-4] INFO  com.ims.service.ItemServiceImpl.getAllItemsService - 19336[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+01-03-2020 18:14:02.883 [http-nio-8084-exec-4] INFO  c.i.controller.ItemMasterController.getAllItems - 19336 Execution time : 204
+01-03-2020 18:14:02.883 [http-nio-8084-exec-4] INFO  c.i.controller.ItemMasterController.getAllItems - 19336[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+01-03-2020 18:16:30.621 [http-nio-8084-exec-1] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 95498[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:16:30.622 [http-nio-8084-exec-1] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 95498##INPUT START##
+01-03-2020 18:16:30.622 [http-nio-8084-exec-1] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 95498##INPUT END##
+01-03-2020 18:16:30.623 [http-nio-8084-exec-1] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 95498[<<] [<<] [<<] [<<] [<<] **NEW REQUEST* [<<] [<<] [<<] [<<] [<<]
+01-03-2020 18:16:30.623 [http-nio-8084-exec-1] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 95498##INPUT START##
+01-03-2020 18:16:30.624 [http-nio-8084-exec-1] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 95498##INPUT END##
+01-03-2020 18:16:30.624 [http-nio-8084-exec-1] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 95498getting session from database
+01-03-2020 18:16:30.633 [http-nio-8084-exec-1] INFO  com.ims.helper.HibernateUtil.getSessionFactory - 95498Trying to connect db URL: jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB
+01-03-2020 18:16:30.644 [http-nio-8084-exec-1] WARN  org.hibernate.orm.connections.configure - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-03-2020 18:16:30.645 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+01-03-2020 18:16:30.646 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001001: Connection properties: {user=root, password=****}
+01-03-2020 18:16:30.647 [http-nio-8084-exec-1] INFO  org.hibernate.orm.connections.buildCreator - HHH10001003: Autocommit mode: false
+01-03-2020 18:16:30.647 [http-nio-8084-exec-1] INFO  o.h.e.j.c.i.DriverManagerConnectionProviderImpl.<init> - HHH000115: Hibernate connection pool size: 20 (min=1)
+01-03-2020 18:16:30.768 [http-nio-8084-exec-1] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+01-03-2020 18:16:31.186 [Finalizer] INFO  org.hibernate.orm.connections.stop - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+01-03-2020 18:16:31.187 [Finalizer] INFO  org.hibernate.orm.connections.stop - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+01-03-2020 18:16:31.187 [Finalizer] INFO  org.hibernate.orm.connections.stop - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+01-03-2020 18:16:31.187 [Finalizer] INFO  org.hibernate.orm.connections.stop - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+01-03-2020 18:16:31.188 [Finalizer] INFO  org.hibernate.orm.connections.stop - HHH10001008: Cleaning up connection pool [jdbc:mysql://localhost:3306/INVENTORY_SYSTEM_DB?useSSL=false]
+01-03-2020 18:16:33.099 [http-nio-8084-exec-1] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 95498 Execution time : 2476
+01-03-2020 18:16:33.099 [http-nio-8084-exec-1] INFO  c.i.s.AreaLocationSourceServiceImpl.getAreaLocationService - 95498[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
+01-03-2020 18:16:33.099 [http-nio-8084-exec-1] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 95498 Execution time : 2478
+01-03-2020 18:16:33.100 [http-nio-8084-exec-1] INFO  c.i.c.AreaLocationSourceController.getAreaLocations - 95498[>>] [>>] [>>] [>>] [>>] **SENDING RESPONSE TO CLIENT** [>>] [>>] [>>] [>>] [>>] 
+
